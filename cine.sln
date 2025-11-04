@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cine.Api", "cine.Api\cine.Api.csproj", "{C5300D3B-4500-4736-BE88-79476A8816D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cine.Application", "cine.Application\cine.Application.csproj", "{53E3C246-3BA6-4C76-ACA3-0B4A9033A598}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cine.Infrastructure", "cine.Infrastructure\cine.Infrastructure.csproj", "{94252593-3F08-4068-8BFD-8972A33D92AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cine.Domain", "cine.Domain\cine.Domain.csproj", "{CAD49181-55BD-4329-B42C-3F22FCCFF763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5300D3B-4500-4736-BE88-79476A8816D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5300D3B-4500-4736-BE88-79476A8816D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5300D3B-4500-4736-BE88-79476A8816D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5300D3B-4500-4736-BE88-79476A8816D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E3C246-3BA6-4C76-ACA3-0B4A9033A598}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E3C246-3BA6-4C76-ACA3-0B4A9033A598}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E3C246-3BA6-4C76-ACA3-0B4A9033A598}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E3C246-3BA6-4C76-ACA3-0B4A9033A598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94252593-3F08-4068-8BFD-8972A33D92AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94252593-3F08-4068-8BFD-8972A33D92AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94252593-3F08-4068-8BFD-8972A33D92AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94252593-3F08-4068-8BFD-8972A33D92AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD49181-55BD-4329-B42C-3F22FCCFF763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD49181-55BD-4329-B42C-3F22FCCFF763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD49181-55BD-4329-B42C-3F22FCCFF763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD49181-55BD-4329-B42C-3F22FCCFF763}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
