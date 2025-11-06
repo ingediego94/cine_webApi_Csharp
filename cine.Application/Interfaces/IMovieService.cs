@@ -4,9 +4,9 @@ namespace cine.Application.Interfaces;
 
 public interface IMovieService
 {
-    Task<Movie> GetById(int id);
-    Task<IEnumerable<Movie>> GetAll();
-    Task<Movie> Create(Movie movie);
-    Task<bool> Update(Movie movie);
-    Task<bool> Delete(int id);
+    Task<Movie> GetByIdAsync_(int id);
+    Task<IEnumerable<Movie>> GetAllAsync_();
+    Task<Movie> CreateAsync_(Movie movie);
+    Task<bool> UpdateAsync_(Movie movie);
+    Task<bool> DeleteAsync_(int id);
 }

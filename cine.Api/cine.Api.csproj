@@ -20,4 +20,8 @@
     <ProjectReference Include="..\cine.Infrastructure\cine.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>
